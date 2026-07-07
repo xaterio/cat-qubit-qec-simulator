@@ -8,8 +8,11 @@ A comprehensive Python simulation of Schrodinger cat states in harmonic oscillat
 
 Cat qubits encode quantum information in the superposition of coherent states in a harmonic oscillator. The logical basis states are defined as:
 
-- Logical |0>: Even cat state = (|alpha> + |-alpha>) / sqrt(2 + 2*exp(-2|alpha|^2))
-- Logical |1>: Odd cat state = (|alpha> - |-alpha>) / sqrt(2 - 2*exp(-2|alpha|^2))
+* **Logical $|0\rangle$ (Even cat state):**
+  $$|0_L\rangle = \frac{|\alpha\rangle + |-\alpha\rangle}{\sqrt{2 + 2e^{-2|\alpha|^2}}}$$
+
+* **Logical $|1\rangle$ (Odd cat state):**
+  $$|1_L\rangle = \frac{|\alpha\rangle - |-\alpha\rangle}{\sqrt{2 - 2e^{-2|\alpha|^2}}}$$
 
 where |alpha> is a coherent state with amplitude alpha. These states are macroscopic superpositions that exhibit quantum interference fringes in phase space.
 
